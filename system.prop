@@ -7,3 +7,8 @@ ro.netflix.channel=2eb27aa0-3926-11e9-8c73-9b498cd1a550
 ro.netflix.signup=1
 
 persist.vendor.dpm.feature=11
+
+# DroidX
+ro.droidx.maintainer=Nalinish
+ro.droidx.chipset=Snapdragon 662
+ro.droidx.display_resolution=10.4" TFT LCD 1200 x 2000

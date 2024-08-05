@@ -86,7 +86,7 @@ TARGET_USES_ION := true
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/droidx/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
@@ -111,7 +111,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc 
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/samsung/sm6115
+TARGET_KERNEL_SOURCE := kernel/samsung/gta4l
 
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung

@@ -42,7 +42,7 @@ TARGET_SCREEN_WIDTH := 1200
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-droidx
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
@@ -106,7 +106,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
     android.hardware.camera.provider@2.5-legacy.samsung \
-    android.hardware.camera.provider@2.5-service_64.samsung
+    android.hardware.camera.provider@2.5-service_64.samsung \
+    Aperture
 
 PRODUCT_PACKAGES += \
     libexif.vendor:64 \
